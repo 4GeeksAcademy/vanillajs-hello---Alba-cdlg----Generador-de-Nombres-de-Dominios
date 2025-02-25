@@ -16,6 +16,7 @@
       for (let a of adj) {
         for (let n of noun) {
           domains.push(`${p}${a}${n}.com`);
+          domains.push(`${p}${a}${n}.es`);
         }
       }
     }
